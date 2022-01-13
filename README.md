@@ -25,3 +25,12 @@ git init은 하위폴더 포함 git으로 관리한다는 의미이므로 github
 4. __git status__
    - 현재 상태를 확인해주는 창입니다. 
    - 수시로 해서 지금 상태가 어떤지 확인하면 좋을듯??
+
+## 참고사항
+
+### 제일 먼저 해야할 일
+
+1. 로컬과 원격 연동하는법
+   - __git remote add origin `github HTTPS 복사에서 붙여넣기`__
+   - 확인하는 법은 __git remote -v__
+   - 연결 끊을 경우 __git remote rm origin__
